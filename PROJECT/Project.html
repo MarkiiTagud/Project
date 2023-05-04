@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Villa Tuna</title>
+	<link rel="stylesheet" type="text/css" href="CSS/styling.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="Project.html"><img src="Images/bt.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+
+				<ul>
+					<li><a href="Project.html">HOME<a/></li>
+					<li><a href="About.html">ABOUT<a/></li>
+					<li><a href="Menu.html">MENUS<a/></li>
+					<li><a href="Branch.html">BRANCHES<a/></li>
+					<li><a href="Contact.html">CONTACT<a/></li>
+
+
+				</ul>
+			</div>
+
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+
+		</nav>
+<div class="text-box">
+	<!---Sample Picture LOGO <a href="Project.html"><img src="tuna.png"></a>-->
+		<h1>VILLA TUNA</h1> 
+		<p>To experience fast, healthy, affordable, & delicious home-cooking  tuna dishes,<br>COME & VISIT NOW to our VILLA TUNA branches near you!
+		</p>
+		<a href="About.html"class="hero-btn">Visit Us to know more<a/>
+</div>
+
+	</section>
+
+<!----FOODS-->
+
+<section class="Intro">
+		<h1>About Us</h1>
+		
+
+		<div class="row" >
+				<div class="Intro-one">
+
+					<h3>History</h3>
+					<p>On April 18, 2017 Villa Tuna Republika first branch was established in Butuan city. It was inspired by a former colleague's business to bring ..... <a href="About.html"class="">Read more<a/> </p>
+					
+				</div>
+				<div class="Intro-one">
+
+					<h3>Mission</h3>
+					<p>Our Mission is to provide fast, healthy, affordable, and delicious high-quality tuna dishes with excellent customer service to the market.....<a href="About.html"class="">Read more<a/> </p>
+				
+				</div>
+				<div class="Intro-one">
+
+					<h3>Vision</h3>
+					<p>o be the fastest growing fast-casual tun restaurant, developing a healthy working environment and encouraging both financial and profes.....<a href="About.html"class="">Read more<a/> </p>
+					
+				</div>
+		</div>
+
+</section>
+<!----FOOD IMAGE---->
+
+<section class="Food">
+		<h1>We Provide</h1>
+	<div class="row">
+		<div class="Food1">
+			<img src="Images/1.jpg">
+			<div class="layer">
+				<h3>FAST</h3>
+				
+			</div>
+
+		</div>
+		<div class="Food1">
+			<img src="Images/tuna2.jpg">
+			<div class="layer">
+				<h3>HEALTHY</h3>
+				
+			</div>
+
+		</div>
+		<div class="Food1">
+			<img src="Images/2.jpg">
+			<div class="layer">
+				<h3>AFFORDABLE</h3>
+				
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
+
+<!-------STORE------>
+
+
+<section class="Store">
+	<h1>Store Design</h1>
+	
+
+	<div class="row">
+		<div class="Store1">
+			<img src="Images/store1.jpg">
+			<h3>This place has a relaxed, casual vibe</h3>
+			
+			
+
+		</div>
+		
+		<div class="Store1">
+			<img src="Images/store2.jpg">
+				<h3>Great décor and ambiance</h3>
+			
+
+		</div>
+		<div class="Store1">
+			<img src="Images/store3.jpg">
+			<h3>A nice place to eat</h3>
+		
+			
+
+		</div>
+
+	</div>
+
+</section>
+
+
+<section class="visit">
+	<h1>Visit One of our Stores<br>Valencia· Cagayan de Oro· Iligan City· Gingoog City · Ozamiz· Butuan</h1>
+	<a href="Contact.html"class="hero-btn">CONTACT US</a>
+
+
+</section>
+
+<!------Footer---->
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Message Us or Email us<br>villatunafoodscorp@gmail.com</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+
+
+
+	</div>
+	<p>Made by <i class="fa fa-heart-o"></i> by Mark Kevin Tagud</p>
+
+	</section>
+
+
+<!--------------------TOGGLE MENU--------------->
+<script >
+	
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right ="0";
+	}
+	function hideMenu(){
+		navLinks.style.right="-200px";
+	}
+
+</script>
+
+
+</body>
+</html>
